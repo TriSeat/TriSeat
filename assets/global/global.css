@@ -1,0 +1,6 @@
+@import './fonts.css';
+@import './normalize.css';
+@import './scrollbar.css';
+@import './selection.css';
+@import './variables.css';
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");

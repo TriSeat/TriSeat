@@ -1,0 +1,55 @@
+.achievements{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.achievements .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.achievements .content h3{
+    width: 380px;
+    max-width: 100%;
+    text-align: center;
+
+}
+
+.achievements .content h3 a{
+    color: var(--cor-roxo);
+}
+
+.conquered{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.conquer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 200px;
+    max-width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 1157px) {
+    .achievements .content{
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+}

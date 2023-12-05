@@ -1,0 +1,100 @@
+@import '../../global/global.css';
+@import '/assets/pages/index/partials/splashscreen.css';
+@import '/assets/pages/index/partials/nav.css';
+@import '/assets/pages/index/partials/hero.css';
+@import '/assets/pages/index/partials/achievements.css';
+@import '/assets/pages/index/partials/services.css';
+@import '/assets/pages/index/partials/know.css';
+@import '/assets/pages/index/partials/about.css';
+@import '/assets/pages/index/partials/testimonial.css';
+@import '/assets/pages/index/partials/team.css';
+@import '/assets/pages/index/partials/start.css';
+@import '/assets/pages/index/partials/faq.css';
+@import '/assets/pages/index/partials/footer.css';
+
+
+
+.content{
+    margin: 100px;
+    max-width: 1920px;
+    width: 100%;
+}
+
+.main-title{
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle{
+    color: var(--cor-cinza);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.second-title{
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 51px; /* 159.375% */
+}
+
+.third-title{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 51px; /* 212.5% */
+}
+
+.ford-title{
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 30.5px; /* 152.5% */
+    }
+
+
+.section-title{
+ font-size: 48px;
+font-style: normal;
+font-weight: 400;
+line-height: 51px; /* 106.25% */
+}
+
+.section-subtitle{
+    color: var(--cor-cinza2);
+
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px; /* 150% */
+}
+
+.text{
+    color: var(--cor-cinza);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 150% */
+}
+
+@media screen and (max-width: 1490px) {
+    .content{
+        margin: 100px 50px;
+    }}
+    
+    @media screen and (max-width: 1000px) {
+        .content{
+            padding: 0px 20px;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .section-title {
+            font-size: 9.5vw;
+        }
+    }

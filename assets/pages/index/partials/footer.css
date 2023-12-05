@@ -1,0 +1,174 @@
+footer {
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-roxo2);
+    height: 328px;
+    justify-content: center;
+   
+  }
+    
+    footer .content{
+      margin: 0 20px;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%;
+      max-width: 1920px;
+    }
+    
+    footer .content .copyright {
+      display: flex;
+      flex-direction: column;
+      color: #FFF;
+      text-align: center;
+      gap: 10px;
+      
+    }
+
+    footer .content .copyright svg path{
+        fill: var(--cor-branca-fix);
+    }
+    
+    footer .content .copyright .socials{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    footer .content .copyright .socials .logo{
+      color: var(--cor-branca-fix);
+      text-decoration: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 32px;
+      height: 32px;
+      background-color: var(--cor-roxo);
+      border-radius: 50%;
+    }
+    
+    footer .content .copyright .socials .logo:hover{
+      transition: all 0.5s;
+      color: var(--cor-cinza);
+      transform: scale(1.1);
+      background-color: var(--cor-roxo2);
+    
+    }
+    
+    footer .content .company{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      color: var(--cor-branca-fix);
+    }
+    
+    footer .content ul, footer a{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      list-style: none;
+      color: var(--cor-branca-fix);
+      text-decoration: none;
+    }
+    
+    footer .content a:hover{
+      transition: all 0.5s;
+      color: var(--cor-cinza);
+      text-decoration: underline;
+    }
+    
+    footer .content h4{
+      font-size: 20px;
+      font-weight: 500;
+    }
+    
+    footer .content .support{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      color: var(--cor-branca-fix);
+    }
+    
+    footer .content .news{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      color: var(--cor-branca-fix);
+    }
+    
+    
+    footer .content .news form input[type="email"] {
+      border-radius: 5px;
+      width: 300px;
+      border-right: none !important;
+      background-color: var(--cor-branca-fix);
+      height: fit-content;
+      padding: 12px 8px;
+      color: var(--cor-preto-fix) !important;
+      border: none;
+    }
+    
+  
+    footer .content .news form .formulario-footer{
+      display: flex;
+      flex-direction: row;
+      height: 36px;
+      justify-content: center;
+    }
+    
+    footer .content .news form .formulario-footer button {
+      padding: 12px 0;
+      width: 70px;
+      height: fit-content;
+      justify-content: space-between;
+
+      background-color: var(--cor-roxo); /* Cor de fundo do botão */
+      color: var(--cor-branca-fix); /* Cor do texto do botão */
+      border-radius: 5px; /* Borda arredondada */
+      cursor: pointer;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    footer .content .news form .formulario-footer button:hover{
+      
+      color: var(--cor-preto);
+      background-color: var(--cor-branca);
+    }
+  
+    @media screen and (max-width: 912px ) {
+      footer .content .news {
+        display: none !important;
+      }}
+      @media screen and (max-width: 1024px ) {
+        .footer{
+          display: none;
+        }
+        }
+        @media screen and (max-width: 550px ) {
+          footer .content .support {
+            display: none !important;
+          }
+          footer .content .company {
+            display: none !important;
+          }
+
+          footer .content{
+            justify-content: center;
+          }
+        }
+  
+          @media screen and (max-width: 380px ) {
+            footer .content .company {
+              display: none !important;
+            }
+          footer .content{
+            justify-content: center;
+          }
+          }
+        

@@ -1,0 +1,35 @@
+.splash-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-branca); /* Cor de fundo da splash screen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000000; /* Certifique-se de que a splash screen está acima de outros elementos */
+}
+
+.loader {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader .logo svg path, .loader .logo svg{
+    fill: var(--cor-preto);
+    width: 130px;
+    height: auto;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.splash-screen + .navbar {
+    display: none;
+}

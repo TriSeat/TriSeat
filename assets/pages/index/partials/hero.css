@@ -1,0 +1,234 @@
+.hero{
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(140, 140, 253, 0.61) -43.7%, var(--cor-branca) 80.16%), url(/files/others/wp2757885.gif) 10%, lightgray 50% / cover no-repeat;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero .content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 145px 100px 100px 100px;
+}
+
+
+.hero-text-side{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero-title{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 880px;
+}
+
+.hero-title .main-title{
+    color: var(--cor-branca-fix);
+}
+
+.hero-title .main-title a{
+    color: var(--cor-roxo);
+}
+
+.hero-title p{
+    width: 100%;
+    max-width: 720px;
+}
+
+.hero-text-down-content{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.hero .subtitle{
+    color: var(--cor-cinza);
+}
+
+.hero .formulario .ghost{
+    width: 10px;
+    height: 89px;
+}
+
+.hero .forms{
+    display: flex;
+    background: var(--cor-glass);
+    align-items: center;
+    border-radius: 5px 110px 110px 5px;
+    backdrop-filter: blur(2px);
+    padding: 20px 40px 20px 40px;
+    z-index: 10;
+    position: absolute;
+
+}
+
+.hero .forms form{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .forms form input{
+    display: flex;
+padding: 15px 220px 15px 20px;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+background: #F8F8F8;
+}
+
+.hero .forms form button{
+    cursor: pointer;
+    display: flex;
+padding: 17px 40px 17px 30px;
+justify-content: center;
+align-items: center;
+gap: 15px;
+border-radius: 5px 30px 30px 5px;
+background: var(--cor-roxo);
+color: var(--cor-branca-fix);
+transition: all 0.3s ease-in-out;
+}
+
+.hero .forms form button:hover{
+    filter: brightness(85%)
+}
+
+.partners{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.partners svg{
+    transition: all 0.2s ease-in-out;
+}
+
+.partners svg:hover{
+    filter: brightness(75%);
+
+}
+
+.partners .enterprises{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.hero-img-side img{
+         max-width: 800px;
+        height: auto;
+        position: absolute;
+        right: 0;
+        user-select: none;
+        -webkit-user-drag: none;
+       width: 44vw;
+}
+
+@media screen and (min-width: 1920px){
+    .hero-img-side img{
+        position:relative;
+        max-width: 800px;
+        height: auto;
+        user-select: none;
+        -webkit-user-drag: none;
+       width: 44vw;
+    }
+}
+
+@media screen and (max-width: 1340px){
+    .hero .forms form{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+    .hero .forms form button{
+        width: 100%;
+    }
+
+    .hero .forms form input{
+        padding: 15px 40vw 15px 20px;
+    }
+
+    .hero .forms{
+        border-radius: 0;
+        padding: 20px 0;
+        background: none;
+        backdrop-filter: none;
+    }
+
+    .partners{
+        margin-top: 150px;
+  
+    }
+    
+}
+
+@media screen and (max-width: 940px){
+    .hero-img-side{
+        display: none;
+        
+    }
+
+    .main-title{
+        font-size: 10vw;
+    }
+
+    .hero .forms form input{
+    padding: 15px 40vw 15px 20px;
+}
+
+    .hero .content{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero .formulario{
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+
+   
+    .hero-title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .partners{
+        align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+
+    .partners .enterprises{
+        gap: 20px 45px;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-title{
+        font-size: 13vw !important;
+    }
+}
+
+@media screen and (max-width: 940px){
+    .hero .forms form input{
+        padding: 15px 25vw 15px 20px;
+    }
+    }
+

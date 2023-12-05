@@ -1,0 +1,38 @@
+:root{
+    /* Cores */
+    --cor-preto: #333;
+    --cor-roxo: #3E3BFB;
+    --cor-cinza: #717171;
+    --cor-branca: #f8f8f8;
+    --cor-cinza2: #ddd;
+    --cor-roxo2: #22225B;
+    --cor-linear-hero-image: linear-gradient(180deg, rgba(62, 59, 251, 0.17) 0%, var(--cor-branca) 94.27%), url(/files/others/hero-back.png), lightgray;
+    --cor-linear-hero: linear-gradient(180deg, rgba(91, 89, 194, 0.25) 0%, rgba(255, 255, 255, 0.00) 100%);
+    --cor-linear-know: linear-gradient(180deg, #22225B 0%, #333 248.19%, #000 248.19%);
+    --cor-linear-start-image: linear-gradient(180deg, rgba(62, 59, 251, 0.70) 0%, rgba(57, 56, 255, 0.70) 100%), url(/files/others/start-back.png), lightgray 50% / cover no-repeat;
+
+    --cor-linear-start: linear-gradient(180deg, #3E3BFB 0%, #3938FF 100%);
+    --cor-glass: rgba(255, 255, 255, 0.25);
+    --cor-branca-fix: #fff;
+    --cor-cinza-fix: #949494;
+    --cor-preto-fix: #333;
+    --cor-almost-invisible: rgba(0, 0, 0, 0.1);
+}
+
+.dark-mode {
+    /* Cores específicas para o dark mode */
+    --cor-preto: #fff;
+    --cor-roxo: #8c6ff7;
+    --cor-cinza: #a1a1a1;
+    --cor-branca: #1b1b1b;
+    --cor-cinza2: #8a8a8a;
+    --cor-roxo2: #4F3DFF;
+    --cor-linear-hero: linear-gradient(180deg, rgba(91, 89, 194, 0.25) 0%, rgba(255, 255, 255, 0.00) 100%);
+    --cor-linear-know: linear-gradient(180deg, #121242 0%, #222 248.19%, #000 248.19%);
+    --cor-linear-start-image: linear-gradient(180deg, rgba(18, 18, 66, 0.70) 0%, rgba(39, 36, 36, 0.7) 100%), url(/files/others/start-back.png), lightgray 50% / cover no-repeat;
+    --cor-linear-start: linear-gradient(180deg, #121242 0%, #222 248.19%, #000 248.19%);
+    --cor-glass: rgba(0, 0, 0, 0.25);
+
+    /* Adicione outras alterações de estilo para o modo escuro conforme necessário */
+}
+

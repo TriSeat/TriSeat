@@ -1,0 +1,130 @@
+.faq{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .faq .title h2{
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  .faq .title{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .faq .content{
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row;
+  }
+  
+  .faq .content .faq-questions{
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+  }
+  
+  ::selection{
+    background: var(--cor-roxo);
+    color: var(--cor-branca);
+  }
+  .accordion{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  .accordion .accordion-text{
+    width: 100%;
+  }
+  .accordion .accordion-text .title{
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--cor-roxo);
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  .accordion .accordion-text li{
+    list-style: none;
+    cursor: pointer;
+  }
+  .accordion-text li .question-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .accordion-text li .question-arrow .question{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cor-preto);
+    transition: all 0.3s ease;
+  }
+  .accordion-text li .question-arrow .arrow{
+    font-size: 20px;
+    color: var(--cor-cinza);
+    transition: all 0.3s ease;
+  }
+  .accordion-text li.showAnswer .question-arrow .arrow{
+    transform: rotate(-180deg);
+  }
+  .accordion-text li:hover .question-arrow .question,
+  .accordion-text li:hover .question-arrow .arrow{
+    color: var(--cor-roxo);
+  }
+  .accordion-text li.showAnswer .question-arrow .question,
+  .accordion-text li.showAnswer .question-arrow .arrow{
+    color: var(--cor-roxo);
+  }
+  .accordion-text li .line{
+    display: block;
+    height: 2px;
+    width: 100%;
+    margin: 10px 0;
+    background: var(--cor-almost-invisible);
+  }
+  .accordion-text li p{
+    width: 92%;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--cor-cinza);
+    display: none;
+  }
+  .accordion-text li.showAnswer p{
+    display: block;
+    transition: all 1s;
+  }
+  
+  @media screen and (max-width: 1320px ) {
+    .faq .content{
+      flex-direction: column;
+      gap: 40px;
+      align-items: center;
+      justify-content: center;
+    }
+    .faq h2{
+     width: 100%;
+     max-width:  525px;
+    }
+
+    .faq .p{
+      width: fit-content;
+    }
+
+    .text-side-title{
+      width: fit-content;
+    }
+
+    .accordion{
+      max-width: 100%;
+      width: 636px;
+    }
+
+  }

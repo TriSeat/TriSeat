@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    line-height: normal;
+    appearance: none;
+    scroll-behavior: smooth;
+    
+
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cor-branca);
+    color: var(--cor-preto);
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background: url(/files/others/main-background.png), var(--cor-branca) 50% / cover no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
